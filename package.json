@@ -1,0 +1,42 @@
+{
+  "name": "messager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && nodemon ./dist/index.js",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.7.5",
+    "@graphql-tools/schema": "^10.0.0",
+    "argon2": "^0.30.3",
+    "body-parser": "^1.20.2",
+    "connect-redis": "^7.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "graphql": "^16.7.1",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-tag": "^2.12.6",
+    "graphql-ws": "^5.14.0",
+    "http": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "redis": "^4.6.7",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.17",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/connect-redis": "^0.0.20",
+    "@types/express-session": "^1.17.7",
+    "@types/node": "^20.4.2",
+    "@types/redis": "^4.0.11",
+    "typescript": "^5.1.6"
+  }
+}
